@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<String> partecipanti = new ArrayList<>();
-        String filePath = "Sanremo.csv";
+        String filePath = "Sanremo/Sanremo.csv";
 
         try {
             java.io.File file = new java.io.File(filePath);
