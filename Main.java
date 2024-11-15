@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 
 public class Main {
+    @SuppressWarnings("rawtypes")
     public static void main(String[] args) {
         Coppia c1 = new Coppia<String, Integer>("Saqlain", 1);
         Coppia c2 = new Coppia<Double, Long>(3.14, 500l);
